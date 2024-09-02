@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#search-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e55d4e;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe h3 {
+    margin: 10px 0;
+}
+
+.recipe p {
+    margin: 0;
+}
+
+#shopping-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#shopping-list-items li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
